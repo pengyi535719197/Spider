@@ -11,4 +11,6 @@ import scrapy
 class BusspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+    city = scrapy.Field()
+    city_url = scrapy.Field()
