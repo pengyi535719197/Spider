@@ -40,6 +40,9 @@ class BusSpider(scrapy.Spider):
     def more_line_url(self, response):
         item = response.meta['item']
 
-        item['more_line_url'] = response.xpath("/html/body/div[1]/div[3]/div/div[1]/div[2]/ul/li[3]/a[@class='more']/@href").extract()
+        item['more_line_url'] = response.xpath("//div[@class='topGray']/div[@class='gray']/div[1]/div[@class='cityWrap']/div[2]/ul/li[3]/a[@class='more']/@href").extract()
 
         yield  item
+
+        # / html / body / div[1] / div[3] / div / div[1] / div[2] / ul / li[3] / a[17]
+        # / html / body / div[1] / div[3] / div / div[1] / div[2] / ul / li[3] / a[21]
