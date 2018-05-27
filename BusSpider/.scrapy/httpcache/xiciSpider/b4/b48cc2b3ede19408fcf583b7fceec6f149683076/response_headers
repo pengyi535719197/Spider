@@ -1,0 +1,14 @@
+Server: nginx/1.1.19
+Date: Sun, 27 May 2018 13:21:01 GMT
+Content-Type: text/html; charset=utf-8
+Status: 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Etag: W/"af7f05eef1d23db8faa8bd0aed919996"
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Runtime: 0.011534
+X-Request-Id: 86a9e58d-e275-4c39-ba65-17a59b47c49d
+Set-Cookie: _free_proxy_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWZiMmMwZjExOGE3ZDFjMmIxYjgwYjA3ZmZlM2JkMDA3BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXVlcGhWcEJWZk9qUW15WUtBYWtNY25LQzNOUTRHVFVGenJYZUJwemhCYzA9BjsARg%3D%3D--fca0a8ca7878b1b1fb046903795a4d1064997ee0; path=/; HttpOnly
+X-Powered-By: Phusion Passenger 5.0.28
+Content-Encoding: gzip

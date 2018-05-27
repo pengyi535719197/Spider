@@ -18,3 +18,7 @@ class BusspiderItem(scrapy.Item):
     city = scrapy.Field()
     city_url = scrapy.Field()
     more_line_url = scrapy.Field()
+
+class xicispiderItem(scrapy.Item):
+    ip = scrapy.Field()
+    port = scrapy.Field()
