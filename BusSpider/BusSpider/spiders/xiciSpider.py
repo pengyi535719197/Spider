@@ -9,7 +9,7 @@ class XicispiderSpider(scrapy.Spider):
 
     def parse(self, response):
 
-        subSelector = response.xpath("//table[@class='ip_list']/tr[@class='odd']")
+        subSelector = response.xpath('//table[@id="ip_list"]/tr[@class="odd"]')
         for sub in subSelector:
             item = xicispiderItem()
             item['ip'] = sub.xpath("./td[2]/text()").extract()

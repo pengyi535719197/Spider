@@ -26,8 +26,8 @@ NEWSPIDER_MODULE = 'BusSpider.spiders'
 DOWNLOADER_MIDDLEWARES = {
     'BusSpider.customUserAgent.RandomUserAgentMiddleware': 400,
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
-    'BusSpider.customProxy.RandomProxy':10,
-    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware':20
+    # 'BusSpider.customProxy.RandomProxy':10,
+    # 'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware':20
 }
 
 # Obey robots.txt rules
