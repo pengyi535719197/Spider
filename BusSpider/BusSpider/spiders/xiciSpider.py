@@ -10,8 +10,13 @@ class XicispiderSpider(scrapy.Spider):
     def parse(self, response):
 
         subSelector = response.xpath('//table[@id="ip_list"]/tr[@class="odd"]')
+        item = xicispiderItem()
+        item['ip'] =[]
+        item['port'] = []
         for sub in subSelector:
-            item = xicispiderItem()
-            item['ip'] = sub.xpath("./td[2]/text()").extract()
-            item['port'] = sub.xpath("./td[3]/text()").extract()
-            yield item
+
+            ip = sub.xpath("./td[2]/text()").extract()[0]
+            port = sub.xpath("./td[3]/text()").extract()[0]
+            item['ip'].append(ip)
+            item['port'].append(port)
+        yield item

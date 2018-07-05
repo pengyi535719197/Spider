@@ -1,10 +1,10 @@
-Server: MapbarServer
-Date: Fri, 25 May 2018 06:10:52 GMT
+Server: nginx/1.10.1
+Date: Tue, 29 May 2018 07:04:26 GMT
 Content-Type: text/html;charset=UTF-8
 Vary: Accept-Encoding
 Cache-Control: no-store
 Pragrma: no-cache
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Set-Cookie: JSESSIONID=44275C8299E7C79D1B4E66B849DB9253.tomcat1; Path=/
+Set-Cookie: JSESSIONID=620B009F7C165A778C821BEF4CA28569.tomcat1; Path=/
 Content-Language: en
 Content-Encoding: gzip

@@ -18,6 +18,11 @@ class BusspiderItem(scrapy.Item):
     city = scrapy.Field()
     city_url = scrapy.Field()
     more_line_url = scrapy.Field()
+    bus_line_url = scrapy.Field()
+    bus_line = scrapy.Field()
+    bus_start_station = scrapy.Field()
+    bus_end_station = scrapy.Field()
+    bus_stationNames = scrapy.Field()
 
 class xicispiderItem(scrapy.Item):
     ip = scrapy.Field()
